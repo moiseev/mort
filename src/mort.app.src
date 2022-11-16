@@ -1,5 +1,5 @@
 {application, mort,
- [{description, "A rebar plugin"},
+ [{description, "Max's Opinionated Rebar3 Templates"},
   {vsn, "0.1.0"},
   {registered, []},
   {applications,
