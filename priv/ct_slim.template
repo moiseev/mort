@@ -1,0 +1,9 @@
+{description, "A minimal version of a ct suite"}.
+{variables, [
+    {name, "suite", "Name of the suite (excluding the _SUITE suffix)"}
+]}.
+
+{dir, "test"}.
+{template, "ct_slim.erl", "test/{{name}}_SUITE.erl"}.
+
+% vim: ft=erlang
