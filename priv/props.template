@@ -1,0 +1,9 @@
+{description, "PropEr properties suite, recognizable by rebar3-erlang"}.
+{variables, [
+    {name, "suite", "Name of the suite (excluding the prop_ prefix)"}
+]}.
+
+{dir, "test"}.
+{template, "props.erl", "test/prop_{{name}}.erl"}.
+
+% vim: ft=erlang
